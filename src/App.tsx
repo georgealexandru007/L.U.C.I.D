@@ -38,7 +38,7 @@ export default function App() {
 
     try {
       const response = await ai.models.generateContent({
-        model: 'gemini-3.1-pro-preview',
+        model: 'gemini-1.5-flash',
         contents: `Ești un expert în gândire critică, logică și auto-apărare mentală.
 Analizează următoarea afirmație, cuvânt sau serie de cuvinte folosind metoda L.U.C.I.D.
 
